@@ -1,0 +1,387 @@
+body{
+    background-color: black;
+    font-family: 'Open Sans', sans-serif; ;
+   
+}
+.descripcion{
+    text-decoration: grey;
+}
+
+.contenedor{
+    color: black;
+    width: 90%;
+    margin: auto;
+}
+header{
+    padding: 30px 0px;
+}
+header .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo-tipo{
+    font-family:'Bebas Neue', cursive;
+    font-weight: normal;
+    color: red;
+    font-size: 40px;
+}
+header nav a {
+    color:#AAA;
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+/*--pelicula--*/
+.pelicula:hover{
+    transform: scale(1.2)
+    
+}
+.pelicula-principal {
+    font-size: 16px;
+    min-height: 40.62em;
+    color: white;
+    background: url(../img/fondointer.jpg) ;
+    background-position: center center;
+    background-size:cover;
+    margin: bottom 3.12m;;
+    display:flex;
+    align-items:end;
+}
+.pelicula-principal .contenedor{
+    margin: 0px auto;
+    margin-bottom: 100px;
+}
+.pelicula-principal .titulo {
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+}
+.pelicula-principal .descripcion {
+    color: black;
+    font-weight:bold;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+}
+.pelicula-principal .boton{
+    background: color black;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 15px;
+    color: black;
+    margin-right: 1.25;
+    font: 18px;
+}
+/*--Controles-pelicula--*/
+.contenedor-titulo-controles{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.contenedor-titulo-controles{
+color: #AAA;
+font-size: 30px;
+}
+.peliculas-recomendadas{
+    margin-bottom: 70px;
+}
+.peliculas-recomendadas .contenedor-principal{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.peliculas-recomendadas .contenedor-carrusel{
+ width: 100%;
+ padding: 20px 0px;
+overflow: hidden;
+scroll-behavior: smooth;
+}
+.peliculas-recomendadas .contenedor-carrusel .carrusel{
+display: flex;
+flex-wrap: nowrap;
+}
+.peliculas-recomendadas .contenedor-carrusel .carrusel .pelicula{
+width: 20%;
+transition: 3s ease all;
+box-shadow: 5px 5px 10px;
+}
+.peliculas-recomendadas .contenedor-carrusel .carrusel .pelicula img{
+width:100% ;
+vertical-align: top;
+}
+/*--media queries--*/
+@media screen and (max-width:800px) {
+    header .logo-tipo { margin-bottom: 10px;}
+     }
+    header .contenedor {
+    flex-direction: column;
+    text-align: center;
+}
+/*--next-premiere*/
+body.fondonegro{
+    background: color black;
+}
+.batman:hover{
+    transform: scale(1.1);
+}
+.marte:hover{
+    transform: scale(1.1);
+}
+.topgun:hover{
+    transform: scale(1.1);
+}
+.videogame:hover{
+    transform: scale(1.1);
+}
+.abismo:hover{
+    transform: scale(1.1);
+}
+.hp:hover{
+    transform: scale(1.1);
+}
+.proximo-estreno {
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: auto;
+}  
+.proximamente {
+color: #AAA;
+font-size:'Bebas Neue', cursive;
+text-align: center;
+}
+div .imagenesenpx {
+width: auto;
+height: auto;
+}
+.vikingo:hover{
+transform: scale(1.15);
+max-width: 600px;
+max-height: 600px;
+padding-left: 45px;
+}
+.dino{
+max-width: 600px;
+max-height: 600px;
+padding-left: 10px;
+}
+/*--actores--*/
+.destacados{
+color: #AAA;
+font-size:'Bebas Neue', cursive;
+text-align: center;
+}
+.scarlett{
+width: 300px;
+height: 300px;
+padding-left: 5%;
+padding-right: 20%;
+}
+.tom{
+ width: 300px; 
+height: 300px;
+padding-left: 5%;
+padding-right: 20%;
+}
+.tomhardy{
+width: 300px; 
+height: 300px;
+padding-left: 5%;
+padding-right: 10%;
+}
+.chris:hover {
+    transform:scale(1.1);
+}
+.tomhardy:hover {
+    transform:scale(1.1);
+}
+.tom:hover {
+    transform:scale(1.1);
+}
+.scarlett:hover {
+    transform: scale(1.1);
+}
+
+.chris{
+width: 300px;
+height: 300px;
+padding-left: 5%;
+padding-right: 20%;
+}
+.infograciahardy{
+color: #AAA;
+font-family:'Bebas Neue', cursive;
+font-weight: normal;
+text-align: center;
+}
+.infografiascarlett{
+color: #AAA;
+font-family:'Bebas Neue', cursive;
+font-weight: normal;
+text-align: center;
+}
+.infografia {
+color: #AAA;
+font-family:'Bebas Neue', cursive;
+font-weight: normal;
+text-align: center;  
+}
+.infograciatom{
+color: #AAA;
+font-family:'Bebas Neue', cursive;
+font-weight: normal;
+text-align: center;    
+} 
+.imgcentro{
+padding-left: 15%;
+padding-right: 15%;
+}
+.series {
+color: #AAA;
+font-size:'Bebas Neue', cursive;
+text-align: center;
+}
+.gallery{
+padding-bottom: 3em;
+padding-top: 1em;
+display: grid;
+grid-template-columns:repeat(4, 1fr);
+grid-auto-rows: 160px;
+grid-template-areas: 
+"img1 igm1 img2 img2"
+"img1 igm1 img2 img2"
+"img3 igm3 img4 img4"
+"img3 igm3 img4 img4"
+;
+gap: .8em;
+}
+.gallery{
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: auto;
+}
+.gallery_img1{
+border-image: auto;
+width: 600px;
+height: 400px;
+}
+.gallery_img5{
+width: 600px;
+height: 300px;
+margin-top: 485px;
+}
+.gallery_img4{
+width: 600px;
+height: 400px;
+margin-left: 0px;
+margin-top: 70px;
+
+}
+.gallery_img3{
+width: 600px;
+height: 400px;
+margin-top: 70px;
+}
+.gallery_img2{
+width: 600px;
+height: 400px;
+
+}
+.gallery_picture--g1{
+  
+padding-bottom: 10px;
+display: block;
+grid-area: img1 ;
+}
+.gallery_picture--g2{
+border-image: none;
+display: block;
+grid-area: img2;
+}
+.gallery_picture--g3{
+border-image: none;
+display: block;
+grid-area: img3;
+}
+.gallery_picture--g4{
+display: block;
+grid-area: img4;
+}
+.gallery_picture--g5{
+display: block;
+grid-area: img3;
+}
+/*--SERIES--*/
+/*--media queries--*/
+@media screen and (max-width:800px) {
+    header .contenedor .logo-tipo { margin-bottom: 10px;}
+     }
+    header .contenedor {
+    flex-direction: column;
+    text-align: center;
+}
+@media screen and (max-width:800px) {
+    .gallery .gallery_picture { margin-bottom: 10px;}
+     }
+    .gallery .gallery_picture {
+    flex-direction: column;
+    text-align: center;
+ }
+.batman {
+width: 300px;
+height: 300px;
+}
+.marte {
+width: 300px;
+height: 300px;
+}
+.videogame{
+width: 300px;
+height: 300px;
+}
+.topgun{
+width: 300px;
+height: 300px;
+}
+.hp{
+ width: 300px;
+height: 300px;
+}
+.abismo{
+ width: 300px;
+ height: 300px;
+}
+
+.flex-center{
+display: flex;
+justify-content: center;
+
+}
+.h2{
+font-size: 55px;
+color: red;
+}
+#series-para-ver{
+display: grid;
+grid-template-columns: repeat(6 1fr);
+width: 99%;
+margin: 5%;
+grid-gap: 30px
+}
+#series-para-ver img{
+margin-right: 100%;
+padding-left: 120px;
+padding-right: 120px;
+max-width: 35%;
+    
+}
+#series-para-ver img{
+width: 100%;
+transition: all 300ms;
+position: relative;
+}
+
+#series-para-ver img:hover{
+transform: scale(1.15);
+}
